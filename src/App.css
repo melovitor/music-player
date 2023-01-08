@@ -18,13 +18,19 @@ body {
   flex-direction: column
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px) {  
+  html {
+    display: flex;
+    justify-content: center;
+  }
+
   .App {
     width: 87.5%; 
     height: 87.5%;
     flex-direction: column;
     margin-top: 1rem;
     margin-bottom: 0.5rem;
-    display: flex;
+    margin-left: auto;
+    margin-right: auto; 
   }
 }

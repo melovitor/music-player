@@ -10,8 +10,7 @@ function App() {
       <div className='smallPlayers'>
         <BigPlayer/>
         <Player/>
-      </div>
-      
+      </div>      
     </div>
   )
 }
