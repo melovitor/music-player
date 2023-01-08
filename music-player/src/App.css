@@ -1,0 +1,30 @@
+body {
+  background: var(--background);
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem
+}
+
+.smallPlayers {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-direction: column
+}
+
+@media (max-width: 768px) {
+  .App {
+    width: 87.5%; 
+    height: 87.5%;
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+  }
+}

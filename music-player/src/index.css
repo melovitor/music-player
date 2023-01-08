@@ -1,0 +1,17 @@
+:root {
+  --background: #0F0D13;
+  --gray-100: #E1E1E6;
+  --gray-150: #D9D9D9;
+  --gray-200: #C4C4CC;
+  --purple : #2A2141;
+  --brown : #404121;
+  --pink : #56274b;
+}
+
+* {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+

@@ -1,0 +1,50 @@
+.card {
+    width: 22.356rem;
+    height: 12.453rem;
+    background: var(--purple); 
+    border-radius: 0.6rem;  
+}
+
+.banner {
+    max-width: 5.25rem; 
+    max-height: 5.25rem
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.8rem;
+    padding: 1.8rem;
+    box-sizing: border-box;
+}
+
+.music {
+    color: var(--gray-100);
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.author {
+    color: var(--gray-100);
+    font-size: 1.2rem;
+    opacity: 80%;
+}
+
+.progressBar {
+    display: block;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.time{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.time h1 {
+    color: var(--gray-200);
+    opacity: 70% ;
+}

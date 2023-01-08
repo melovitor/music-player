@@ -1,0 +1,39 @@
+.card {
+ width: 16.655rem;
+ height: 31.125rem;
+ background: var(--purple); 
+ border-radius: 0.6rem; 
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+ gap: 1.8rem
+}
+
+.banner {
+    max-width: 11.85rem; 
+    max-height: 11.85rem
+}
+
+
+.music {
+    color: var(--gray-100);
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+.author {
+    color: var(--gray-100);
+    font-size: 1.2rem;
+    opacity: 80%;
+}
+
+.time{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.time h1 {
+    color: var(--gray-200);
+    opacity: 70% ;
+}
